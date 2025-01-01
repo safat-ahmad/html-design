@@ -1,5 +1,7 @@
 body{
-    background-color: aqua;
+    background-image: url(public/mountain1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .nav-bar {
   background-color: none;
@@ -15,7 +17,7 @@ body{
 }
 .nav{
     display: flex;
-    align-items: center;
+    align-items: center;    
     flex-direction: row;
     justify-content: center;
 }
@@ -25,25 +27,47 @@ body{
     height: auto;
     display: inline;
 }
+
+.world-icon i {
+   border-radius: 50px;
+    background-color: #fff;
+    color: #212530;
+    border: 1px solid white;;
+}
 .heading1, .heading2{
     font-size: 40px;
-
+    color: white;
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 .heading2{
     font-size: 90px;
+    color: white;
 
 }
 .paragraph{
-    font-size: 20px;
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 16rem;
+    margin-right: 16rem;
+    font-weight: 600;
 }
 .div{
     text-align: center;
     padding-bottom: 2rem;
 }
 .btn{
-    font-size: 20px;
+    margin-top: 5rem;
+    font-size: 18px;
     border-radius: 30px;
+    border-style: inherit;
     padding: 15px 30px;
-    background-color: blue;
+    background-color: rgb(44, 44, 243);
     color: white;
 }
+.page{
+    color: white;
+}
+
