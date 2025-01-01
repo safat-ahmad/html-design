@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(235, 247, 247);
+    background-color: aqua;
 }
 .nav-bar {
   background-color: none;
@@ -24,4 +24,26 @@ body{
     width: 25px;
     height: auto;
     display: inline;
+}
+.heading1, .heading2{
+    font-size: 40px;
+
+}
+.heading2{
+    font-size: 90px;
+
+}
+.paragraph{
+    font-size: 20px;
+}
+.div{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.btn{
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 15px 30px;
+    background-color: blue;
+    color: white;
 }
