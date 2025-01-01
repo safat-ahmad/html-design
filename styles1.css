@@ -1,0 +1,32 @@
+
+#container{
+    background-color: black;
+}
+#first-div{
+    background-image: url(./public/sea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 4.1rem;
+    padding-bottom: 4.1rem;
+    margin-top: 3rem;
+    margin-bottom: 1.8rem;
+}
+#paragraph{
+    text-align: center;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    font-size: 1.5rem;
+    color: white;
+}
+#first-head{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+#second-head{
+    margin-left: 15rem;
+    margin-right: 15rem;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+}
