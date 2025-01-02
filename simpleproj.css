@@ -1,0 +1,41 @@
+/*
+.container{
+background-color: white;
+background-repeat: no-repeat;
+}
+.image{
+    
+    margin-left: 0rem;
+    
+}
+.image img{
+    height: 30rem;
+    width: 30rem;
+}
+
+.column{
+    display: inline-block;
+    border: 2px solid black;
+    flex-direction: row;
+}
+.one{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: center;
+}
+    */
+    .head {
+        border: 2px solid black;
+        display: table;
+        width: 50px;
+        margin: 40px;
+
+    }
+    .head .container{
+        display: table-row;
+        height: 30px;
+        width: 30px;
+    }
+    h1{
+        font-size: 40px;
+    }
