@@ -1,11 +1,134 @@
 body{
-    background-color: aqua;
+    background-image: url(public/sea10.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container{
     display: flex;
-    flex-direction: row;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+    flex-direction: row;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 }
+
 .parent2{
-    display: flex;                                                                                                                                                                  
-    flex-direction: column;                                                                                                                                                                                                                                                                                                 
+    display: flex; 
+    flex: 50%;                                                                                                                                                                 
+    flex-direction: column; 
+    background-color: white;
+    height: 32rem;     
+    width: 30rem; 
+    border-radius: 2%;
+    margin-top: 5rem;
+    margin-right: 10rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+
+
+}
+
+.parent1{
+    flex: 50%;
+    margin-top: 8rem;
+    margin-left: 10rem;
+    padding-right: 7rem;
+    color: white;
+
+}
+h1{
+    font-size: 3.2rem;
+    text-align: left;
+}
+p{
+    font-size: 1.7rem;
+}
+.child11{
+    display: flex;
+    flex-direction: row;
+}
+.child111{
+    flex: 50%;
+    text-align: center;
+}
+.child112{
+    flex: 50%;
+    text-align: center;
+    color: rgb(146, 135, 135);
+}
+.input1{
+    height: 3rem;
+    width: 20rem;
+    margin-left: 4rem;
+    margin-right: 3.5rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    border-radius:30px;
+    border: 2px solid rgb(240, 233, 233);
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+.input2{
+    height: 3rem;
+    width: 20rem;
+    margin-left: 4rem;
+    margin-right: 3.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius:30px;
+    border: 2px solid rgb(240, 233, 233);
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+.input3{
+    height: 3.5rem;
+    width: 22rem;
+    margin-left: 4rem;
+    margin-right: 3.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius:30px;
+    border: 2px solid rgb(240, 233, 233);
+    padding-left: 2rem;
+    font-size: 1rem;
+    background-color: rgb(50, 212, 118);
+}
+.input4{
+    height: 3.5rem;
+    width: 22rem;
+    margin-left: 4rem;
+    margin-right: 3.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius:30px;
+    border: 2px solid rgb(240, 233, 233);
+    padding-left: 2rem;
+    font-size: 1rem;
+    background-color: rgb(109, 109, 219);
+}
+
+
+.hr1{
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.hr2{
+    border: 2px solid rgb(235, 227, 227);
+    
+}
+
+.child4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.lastchild1{
+    margin-left: 3rem;
+    width: 32%;
+}
+.lastchild2{
+    margin-right: 3rem;
+    width: 32%;
+    
+}
+.lshr{
+    background-color:1px solid rgb(235, 227, 227);
+
 }
