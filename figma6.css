@@ -1,0 +1,40 @@
+body{
+    background-image: url(public/desert.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    height: 70px;
+    width: 70px;
+    color: red;
+    margin-right: 2rem;
+}
+.parent3{
+    display: flex;
+    flex-direction: row;
+    margin-left: 6rem;
+    margin-top: 4rem;
+}
+.btn{
+    height: 70px;
+    width: 200px;
+    background-color: rgb(92, 248, 248);
+    color: white;
+    font-size: 20px;
+    border-radius: 40px;
+    border: 0px;
+}
+
+.paragraph{
+    font-size: 25px;
+}
+.heading{
+    font-size: 65px;
+}
+.container{
+    margin-left: 27rem;
+    margin-right: 27rem;
+    text-align: center;
+    color: white;
+    margin-top: 5rem;
+}
