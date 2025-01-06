@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <body>
-    <h1 id="title">Hello, World!</h1>
-    <h1 id="titles">Hello,hhhhhjhj jhjj hhj World!</h1>
-
-    <button onclick="changeText()">Click Me</button>
+    <h1>Counter</h1>
+    <button onclick="increment()">Increment</button>
+    <p>Count: <span id="count">0</span></p>
 
     <script>
-        function changeText() {
-            document.getElementById("titles").innerHTML  = "Text Changed!";
+        let count = 0;
+        function increment() {
+            count++;
+            document.getElementById("count").textContent = count;
         }
     </script>
 </body>
