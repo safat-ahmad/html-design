@@ -21,11 +21,13 @@
             alert('Hello ')
             
         }
-        head.addEventListener('click', addevent)
         para.addEventListener("click", add)
         function add(){
                 alert('Hello I AM from Here')
             }
+        head.addEventListener('click', addevent)
+        head.removeEventListener('click', addevent);
+       
 
     </script>
 </body>
