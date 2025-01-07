@@ -1,20 +1,33 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>event and listeners</title>
+    <title>Document</title>
 </head>
+
 <body>
-    <button type="button" id="btn">click</button>
+    <h1 id="head">Hi I Am a Heading</h1>
+    <p id="para">Hi I am paragraph</p>
+    <div id="div">
+        <p>Hello World</p>
+    </div>
+    <script>
+        const h1 = document.getElementById('head');
+        const p = document.getElementById('para');
+        const div = document.getElementById('div');
+        function addevent() {
+            alert('Hello ')
+            
+        }
+        head.addEventListener('click', addevent)
+        para.addEventListener("click", add)
+        function add(){
+                alert('Hello I AM from Here')
+            }
+
+    </script>
 </body>
-<script>
-    const button= document.getElementById('btn');
-    function eventlist() {
-        alert('HI I Am Safat Ahmad Khan')
-    }
-    button.addEventListener('click', eventlist)
-    button.removeEventListener('click', eventlist)
-</script>
+
 </html>
