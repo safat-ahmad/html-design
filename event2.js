@@ -1,4 +1,4 @@
-// Select DOM elements
+/*// Select DOM elements
 const heading = document.getElementById("heading");
 const box = document.getElementById("box");
 const resetBtn = document.getElementById("resetBtn");
@@ -19,3 +19,6 @@ function reset() {
 // Add event listeners
 box.addEventListener("click", changeBoxText);
 resetBtn.addEventListener("click", reset);
+*/
+
+
