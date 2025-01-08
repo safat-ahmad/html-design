@@ -17,18 +17,20 @@
         const h1 = document.getElementById('head');
         const p = document.getElementById('para');
         const div = document.getElementById('div');
+        
         function addevent() {
             alert('Hello ')
             
         }
+
         para.addEventListener("click", add)
+        console.log('para', para);
+        
         function add(){
                 alert('Hello I AM from Here')
             }
         head.addEventListener('click', addevent)
         head.removeEventListener('click', addevent);
-       
-
     </script>
 </body>
 
